@@ -5,11 +5,12 @@ package examples;
  * @author xiuli.shen
  *
  */
-public class setMinAndMax {
+public class SetMinAndMax {
 
   public static void main(String [] args) {
     int [] arr = {3,4,5,6,7,2,10};
     setMinAndMax(arr);
+    setMinAndMax2(arr);
   }
   
   /**
@@ -56,6 +57,9 @@ public class setMinAndMax {
         max = arr[j];
       }
     }
+    
+    System.out.println("Min: " + min);
+    System.out.println("Max: " + max);
   }
   
 }
